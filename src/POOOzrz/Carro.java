@@ -18,7 +18,14 @@ public class Carro {
     int numPortas;
     
     public Carro(){
-        System.out.println("Você criou o metodo construtor");
+        
+    }
+    
+    public Carro(String tipo, String cor, String placa, int numPortas){
+        this.tipo = tipo;
+        this.cor = cor;
+        this.placa = placa;
+        this.numPortas = numPortas;
     }
     
     //Metódos(Comportamentos)
