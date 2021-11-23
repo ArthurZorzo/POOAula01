@@ -29,7 +29,12 @@ public class Principal {
         carro.setPlaca("RQW-9054");
         carro.setTipo("Camaro");
         
-        carro.imprimeDadosCarro();
-        pessoa.imprimeDadosPessoa();
+        //carro.imprimeDadosCarro();
+        //pessoa.imprimeDadosPessoa();
+        
+        double a = 3;
+        double b = 2;
+        
+        System.out.println("Quadrado de "+a+" é :"+Calculo.elevar(a, b));
     }
 }
