@@ -18,6 +18,16 @@ public class Carro {
     int numPortas;
     
     //Metódos(Comportamentos)
+    void imprimeDadosCarro(){//não estarei retornando informação
+        //Imprimindo os atributos do objeto:
+        System.out.println("Carro:");
+        System.out.println("Cor do carro: "+cor);
+        System.out.println("Numero de portas do carro: "+numPortas);
+        System.out.println("Placa do carro: "+placa);
+        System.out.println("Tipo do carro: "+tipo);
+        System.out.println("\n");
+    }
+    
     public String getTipo() {
         return tipo;
     }

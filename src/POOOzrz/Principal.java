@@ -21,7 +21,7 @@ public class Principal {
         pessoa.setIdade(96);
         pessoa.setCorCabelo("Branco");
         pessoa.setAltura(1.77);
-        pessoa.setBioTipo("Magra");
+        pessoa.setBioTipo("Magro");
         
         //Setando os atributos do objeto
         carro.setCor("Amarelo");
@@ -29,22 +29,7 @@ public class Principal {
         carro.setPlaca("RQW-9054");
         carro.setTipo("Camaro");
         
-        //Imprimindo os atributos do objeto:
-        System.out.println("Pessoa:");
-        System.out.println("Nome: "+pessoa.getNome());
-        System.out.println("Sexo da pessoa: "+pessoa.getSexo());
-        System.out.println("Idade da pessoa: "+pessoa.getCorCabelo());
-        System.out.println("Altura da pessoa: "+pessoa.getAltura());
-        System.out.println("BioTipo da pessoa: "+pessoa.getBioTipo());
-     
-        //Pulando linha
-        System.out.println("\n");
-        
-        //Imprimindo os atributos do objeto:
-        System.out.println("Carro:");
-        System.out.println("Cor do carro: "+carro.getCor());
-        System.out.println("Numero de portas do carro: "+carro.getNumPortas());
-        System.out.println("Placa do carro: "+carro.getPlaca());
-        System.out.println("Tipo do carro: "+carro.getTipo());
+        carro.imprimeDadosCarro();
+        pessoa.imprimeDadosPessoa();
     }
 }

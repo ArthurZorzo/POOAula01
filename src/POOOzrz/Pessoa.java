@@ -19,6 +19,16 @@ public class Pessoa {
     String bioTipo;
     
     //Metódos
+    void imprimeDadosPessoa(){
+        //Imprimindo os atributos do objeto:
+        System.out.println("Pessoa:");
+        System.out.println("Nome: "+nome);
+        System.out.println("Sexo da pessoa: "+sexo);
+        System.out.println("Idade da pessoa: "+corCabelo);
+        System.out.println("Altura da pessoa: "+altura);
+        System.out.println("BioTipo da pessoa: "+bioTipo);
+    }
+    
     public String getNome(){
         return nome;
     }
