@@ -35,6 +35,6 @@ public class Principal {
         double a = 3;
         double b = 2;
         
-        System.out.println("Quadrado de "+a+" é :"+Calculo.elevar(a, b));
+        System.out.println("Quadrado de "+a+" é :"+Calculo.elevar(a));
     }
 }

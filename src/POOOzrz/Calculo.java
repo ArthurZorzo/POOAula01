@@ -7,7 +7,7 @@ package POOOzrz;
 
 /**
  *
- * @author IFSC
+ * @author IFSCs
  */
 public class Calculo {
     public static double elevar(double x){
