@@ -17,6 +17,10 @@ public class Carro {
     String placa;
     int numPortas;
     
+    public Carro(){
+        System.out.println("Você criou o metodo construtor");
+    }
+    
     //Metódos(Comportamentos)
     void imprimeDadosCarro(){//não estarei retornando informação
         //Imprimindo os atributos do objeto:
