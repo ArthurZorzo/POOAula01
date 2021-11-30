@@ -12,12 +12,12 @@ package POOOzrz;
 
 public class Carro {
    //Atributos
-    String tipo;
-    String cor;
-    String placa;
-    int numPortas;
-    Pessoa dono;//Ligação de 1 para 1
-    int cambio;
+    private String tipo;
+    private String cor;
+    private String placa;
+    private int numPortas;
+    private Pessoa dono;//Ligação de 1 para 1
+    private int cambio;
     
     void ligar(){
         System.out.println("Ligando o Carro");

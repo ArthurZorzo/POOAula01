@@ -12,12 +12,12 @@ package POOOzrz;
 public class Pessoa {
     //Atributos
     String nome;
-    String sexo;
-    int idade;
-    double altura;
-    String corCabelo;
-    String bioTipo;
-    Carro carro;
+    private String sexo;
+    private int idade;
+    private double altura;
+    private String corCabelo;
+    private String bioTipo;
+    private Carro carro;
     
     //Metódos
     void imprimeDadosPessoa(){
