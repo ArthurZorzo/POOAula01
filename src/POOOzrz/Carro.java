@@ -17,6 +17,22 @@ public class Carro {
     String placa;
     int numPortas;
     Pessoa dono;//Ligação de 1 para 1
+    int cambio;
+    
+    void ligar(){
+        System.out.println("Ligando o Carro");
+    }
+    void desligar(){
+        System.out.println("Desligando o Carro");
+    }
+    
+    void acelerar(){
+        System.out.println("Acelerando o Carro");
+    }
+    
+    void frear(){
+        System.out.println("Freando o carro"); 
+    }
     
     public Carro(){
         
@@ -37,6 +53,7 @@ public class Carro {
         System.out.println("Numero de portas do carro: "+numPortas);
         System.out.println("Placa do carro: "+placa);
         System.out.println("Tipo do carro: "+tipo);
+        System.out.println("Dono do carro: "+dono.nome);
         System.out.println("\n");
     }
     
@@ -78,5 +95,13 @@ public class Carro {
 
     public void setDono(Pessoa dono) {
         this.dono = dono;
+    }
+    
+    public int getCambio() {
+        return cambio;
+    }
+
+    public void setCambio(int cambio) {
+        this.cambio = cambio;
     }
 }

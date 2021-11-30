@@ -11,7 +11,7 @@ package POOOzrz;
  */
 public class Principal {
     public static void main(String[] args) {
-        Carro carro = new Carro("Gol","Vermelho","TYK-576",4);//Construtor 1, Setando a variavel carro é igual ao objeto Carro
+        Carro carro = new Carro();
         Pessoa pessoa = new Pessoa();
         
         pessoa.setNome("Jorge");
@@ -20,6 +20,12 @@ public class Principal {
         pessoa.setCorCabelo("Branco");
         pessoa.setAltura(1.77);
         pessoa.setBioTipo("Magro");
+        
+        carro.setTipo("Gol");
+        carro.setCor("Vermelho");
+        carro.setPlaca("TYK-576");
+        carro.setNumPortas(4);
+        carro.setDono(pessoa);
         
        pessoa.imprimeDadosPessoa();
        System.out.println("\n");
