@@ -12,22 +12,8 @@ package POOOzrz;
 public class Principal {
     public static void main(String[] args) {
         Carro carro = new Carro("Gol","Vermelho","TYK-576",4);//Construtor 1, Setando a variavel carro é igual ao objeto Carro
+        Pessoa pessoa = new Pessoa();
         
-        Carro outroCarro = new Carro();
-        
-        //Setando os atributos do objeto
-        outroCarro.setCor("Amarelo");
-        outroCarro.setNumPortas(4);
-        outroCarro.setPlaca("RQW-9054");
-        outroCarro.setTipo("Camaro");
-        
-        carro.imprimeDadosCarro();
-        outroCarro.imprimeDadosCarro();
-        
-        //Pessoa pessoa = new Pessoa();//Setando a variavel pessoa é igual ao objeto pessoa
-        //double imc;
-                
-        /*Setando os atributos do objeto      
         pessoa.setNome("Jorge");
         pessoa.setSexo("Masculino");
         pessoa.setIdade(96);
@@ -35,10 +21,8 @@ public class Principal {
         pessoa.setAltura(1.77);
         pessoa.setBioTipo("Magro");
         
-        //pessoa.imprimeDadosPessoa();
-        
-        double a = 3;
-        double b = 2;
-        System.out.println("Quadrado de "+a+" é :"+Calculo.elevar(a));*/
+       pessoa.imprimeDadosPessoa();
+       System.out.println("\n");
+       carro.imprimeDadosCarro();
     }
 }

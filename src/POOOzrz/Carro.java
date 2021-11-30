@@ -16,6 +16,7 @@ public class Carro {
     String cor;
     String placa;
     int numPortas;
+    Pessoa dono;//Ligação de 1 para 1
     
     public Carro(){
         
@@ -69,5 +70,13 @@ public class Carro {
 
     public void setNumPortas(int numPortas) {
         this.numPortas = numPortas;
+    }
+    
+    public Pessoa getDono() {
+        return dono;
+    }
+
+    public void setDono(Pessoa dono) {
+        this.dono = dono;
     }
 }
