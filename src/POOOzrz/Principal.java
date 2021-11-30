@@ -20,15 +20,29 @@ public class Principal {
         pessoa.setCorCabelo("Branco");
         pessoa.setAltura(1.77);
         pessoa.setBioTipo("Magro");
-        
+                
         carro.setTipo("Gol");
         carro.setCor("Vermelho");
         carro.setPlaca("TYK-576");
         carro.setNumPortas(4);
         carro.setDono(pessoa);
         
-       pessoa.imprimeDadosPessoa();
-       System.out.println("\n");
-       carro.imprimeDadosCarro();
+        pessoa.setCarro(carro);
+        pessoa.ligarCarro();
+        pessoa.setCambioMarcha(1);
+        pessoa.acelerarCarro();
+        pessoa.setCambioMarcha(2);
+        pessoa.acelerarCarro();
+        pessoa.setCambioMarcha(3);
+        pessoa.acelerarCarro();
+        pessoa.setCambioMarcha(4);
+        pessoa.getCarro().getCambio();
+        pessoa.frearCarro();
+        pessoa.desligarCarro();
+        System.out.println("\n");
+        
+        pessoa.imprimeDadosPessoa();
+        System.out.println("\n");
+        carro.imprimeDadosCarro();
     }
 }

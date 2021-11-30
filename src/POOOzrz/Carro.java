@@ -98,6 +98,7 @@ public class Carro {
     }
     
     public int getCambio() {
+        System.out.println("Marcha: "+this.cambio);
         return cambio;
     }
 

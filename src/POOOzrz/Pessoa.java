@@ -17,6 +17,7 @@ public class Pessoa {
     double altura;
     String corCabelo;
     String bioTipo;
+    Carro carro;
     
     //Metódos
     void imprimeDadosPessoa(){
@@ -27,6 +28,26 @@ public class Pessoa {
         System.out.println("Idade da pessoa: "+corCabelo);
         System.out.println("Altura da pessoa: "+altura);
         System.out.println("BioTipo da pessoa: "+bioTipo);
+    }
+    
+    void ligarCarro(){
+        carro.ligar();
+    }
+    
+    void desligarCarro(){
+        carro.desligar();
+    }
+    
+    void acelerarCarro(){
+        carro.acelerar();
+    }
+    
+    void frearCarro(){
+        carro.frear();
+    }
+    
+    void setCambioMarcha(int cambio){
+        carro.setCambio(cambio);
     }
     
     public String getNome(){
@@ -75,5 +96,13 @@ public class Pessoa {
     
     public void setBioTipo(String bioTipo){
         this.bioTipo = bioTipo;
+    }
+    
+    public Carro getCarro() {
+        return carro;
+    }
+
+    public void setCarro(Carro carro) {
+        this.carro = carro;
     }
 }
